@@ -23,6 +23,14 @@ namespace Exercise1
             Console.WriteLine($"Registro: {idade} anos d idade, código {codigo} e gênero: {genero}"); 
             Console.WriteLine($"Medida com 8 casas decimais: {medida:F8}"); Console.WriteLine($"Arredondado (3 casas decimais): {medida:F3}"); 
             Console.WriteLine($"Separador decimal invariant culture: {medida.ToString("", CultureInfo.InvariantCulture)}");
+
+            double a = 1.0, b = -3.0, c = -4.0;
+            double delta = Math.Pow(b, 2) - 4.0 * a * c;
+
+            double result = (-b + Math.Sqrt(delta)) / (2.0 * a);
+            Console.WriteLine(result);
+
+
         }
     }
-}
+} 
