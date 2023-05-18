@@ -25,10 +25,10 @@ namespace Exercise4
 
             if (num1 % num2 == 0 || num2 % num1 == 0) 
             {
-                Console.WriteLine("São múltiplos");
+                Console.WriteLine("São múltiplos!");
             } else 
             {
-                Console.WriteLine("Não são múltiplos");
+                Console.WriteLine("Não são múltiplos!");
             }
 
             // ------------------------------------------- // ------------------------------------------- //
